@@ -176,7 +176,7 @@ export class JugarComponent implements OnInit {
 
       const data = { user: this.user };
 
-      fetch('https://cardgameluna01.000webhostapp.com/api/cardgames/', {
+      fetch('https://cardgameluna01.000webhostapp.com/api/cardgames', {
         method: 'POST', 
         headers: {
           'Content-Type': 'application/json',
