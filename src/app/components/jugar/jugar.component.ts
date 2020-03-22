@@ -174,7 +174,7 @@ export class JugarComponent implements OnInit {
         this.router.navigate(['/home']);
       }
 
-      const data = { user: this.user };
+      const data = { "user": this.user };
 
       fetch('https://cardgameluna01.000webhostapp.com/api/cardgames', {
         method: 'POST', 
